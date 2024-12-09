@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chang's Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @media (min-width: 1200px) {
+            .container {
+                width: 1100px; /* 或使用百分比 */
+                margin: 0 auto;
+                padding-left: 50px;
+                padding-right: 50px;
+                font-size: 100%;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            }
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 100%;
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        /* styles.css */
+        .paperBtn {
+            padding: 0px 2px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #ffffff; /* 绿色背景 */
+            color: #d97614; /* 白色文字 */
+            border: none; /* 去掉边框 */
+            border-radius: 5px; /* 圆角 */
+        }
+
+        .paperBtn:hover {
+            /*background-color: #45a049; !* 鼠标悬停时背景颜色变深 *!*/
+            text-decoration: underline #d97614;
+        }
+
+
+
+        li{
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div style="width: 100%;">
+        <div style="float: left">
+            <img src="images/chang.jpg" style="width:120px;">
+        </div>
+        <div style="float: left; margin-left: 15px;">
+            <div style="font-size: 30px; margin-top: 10px;">Baofeng Chang (常宝峰)</div>
+            <div style="margin-top: 10px;">Researcher</div>
+            <div style="margin-top: 5px; ">Zhejiang Province Airport Group</div>
+            <div style="margin-top: 5px; ">Visualization & Visual Analysis</div>
+            <div style="margin-top: 5px; ">Mail: baofeng.chang [at] foxmail.com
+                | <a href="https://scholar.google.com/citations?user=VfrRgFAAAAAJ&hl=zh-CN" style=" color: darkorange; ">Google Scholar</a></div>
+        </div>
+    </div>
+    <div style="width: 100%; clear: both;">
+        <div style="margin-top: 10px; text-align: justify;">
+            I am currently a researcher in Zhejiang Airport Innovation Research Institute, Zhejiang Province Airport Group since 2023.07.
+            I received my Ph.D. degree in computer science and technology from Zhejiang University of Technology, under the supervision of Prof.
+            <a href="https://scholar.google.com/citations?user=VfrRgFAAAAAJ&hl=zh-CN" style=" color: darkorange;">Guodao Sun</a> (孙国道教授) and Prof. <a href="https://baike.baidu.com/item/%E6%A2%81%E8%8D%A3%E5%8D%8E/2886677" style=" color: darkorange;">Ronghua Liang</a>  (梁荣华教授)
+            at <a href="https://zjutvis.org/" style="color: darkorange">ZJUTVIS Group</a>.
+            I received my B.Sc degree in Automation from Zhejiang University of Technology.
+            My main research interests include Dynamic Graph/Network Visualization, Traffic Data Visualization, and Sequential Data Visualization.
+        </div>
+    </div>
+    <hr>
+    <div style="width: 100%; clear: both;">
+        <div style="margin-top: 10px; font-size: 25px">
+            News
+        </div>
+        <div style="margin-top: 0px; width: 100%; height: 200px; overflow: auto">
+            <ul>
+                <li><div style="float: left">Congrats. My paper DBNetVizor is accepted by IEEE Transactions on Big Data.</div> <div style="float: right">-2024.06</div></li>
+                <li><div style="float: left">Two papers are published by Journal of Visualization.</div> <div style="float: right">-2024.03</div></li>
+                <li><div style="float: left">I leave HDU and join Zhejiang Province Airport Group as a researcher.</div> <div style="float: right">-2023.07</div></li>
+                <li><div style="float: left">Congrats. Three papers are accepted in ChinaVis 2023.</div> <div style="float: right">-2023.04</div></li>
+                <li><div style="float: left">Presentation! "Big Data Visualization and Visual Analysis Empowering Smart Education" in YCF, Wenzhou, China.</div> <div style="float: right">-2023.05</div></li>
+                <li><div style="float: left">I work as a temporary assistant researcher at Hangzhou Dianzi University.</div> <div style="float: right">-2023.04</div></li>
+                <li><div style="float: left">Congrats to myself. I graduate from Zhejiang University of Technology. Now, you can call me Doctor Chang. LOL.</div> <div style="float: right">-2023.03</div></li>
+                <li><div style="float: left">I participated in the ChinaVis PhD forum and shared my research.</div> <div style="float: right">-2022.07</div></li>
+                <li><div style="float: left">My paper MUSE is accepted by IEEE Transactions on Visualization and Computer Graphics.</div> <div style="float: right">-2022.05</div></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+    <div style="width: 100%; clear: both;">
+        <div style="margin-top: 10px; font-size: 25px">
+            Publications
+        </div>
+        <div style="margin-top: 10px; width: 100%;">
+            <div style="float: left">
+                <img src="images/muse.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">MUSE: Visual Analysis of Musical Semantic Sequence</div>
+                <div style="margin-top: 5px; "><span style="font-weight: bolder">Baofeng Chang</span>, Guodao Sun, Tong Li, Houchao Huang, and Ronghua Liang</div>
+                <div style="margin-top: 5px; ">IEEE Transactions on Visualization and Computer Graphics (TVCG) / CCF-A / 2022</div>
+                <div style="margin-top: 5px; "> <button id="muse_pdf" class="paperBtn">pdf</button>
+                    | <button id="muse_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/DBNetVizor.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">DBNetVizor: Visual Analysis of Dynamic Basketball Player Networks</div>
+                <div style="margin-top: 5px; "><span style="font-weight: bolder">Baofeng Chang</span>, Guodao Sun, Sujia Zhu, Qi Jiang, Wang Xia, Jingwei Tang, and Ronghua Liang</div>
+                <div style="margin-top: 5px; ">IEEE Transactions on Big Data (TBD) / CCF-C / 2024 (to appear)</div>
+                <div style="margin-top: 5px; "> <button id="dbnetvizor_pdf" class="paperBtn">pdf</button>
+                                        | <button id="dbnetvizor_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/tzvis.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">TZVis: Visual analysis of bicycle data for traffic zone division</div>
+                <div style="margin-top: 5px; ">Guodao Sun, <span style="font-weight: bolder">Baofeng Chang</span>, Lin Zhu, Hao Wu, Kai Zheng, and Ronghua Liang</div>
+                <div style="margin-top: 5px; ">Journal of Visualization / SCI / 2019</div>
+                <div style="margin-top: 5px; "><button id="tzvis_pdf" class="paperBtn">pdf</button>
+                                        | <button id="tzvis_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/exevis.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">ExeVis: concept-based visualization of exercises in online learning</div>
+                <div style="margin-top: 5px; ">Zhiguang Zhou, Lihong Cai, Jiayi Guo, Yong Zhang, <span style="font-weight: bolder">Baofeng Chang</span>(corresponding author), </div>
+                <div>Ting Xu, and Yongheng Wang</div>
+                <div style="margin-top: 5px; ">Journal of Visualization / SCI / 2024</div>
+                <div style="margin-top: 5px; "><button id="exevis_pdf" class="paperBtn">pdf</button>
+                                        | <button id="exevis_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/vac2.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">VAC<sup>2</sup>: Visual Analysis of Combined Causality in Event Sequences</div>
+                <div style="margin-top: 5px; ">Sujia Zhu, Guodao Sun, Yue Shen, Zihao Zhu, Wang Xia, <span style="font-weight: bolder">Baofeng Chang</span>, Jingwei Tang, and Ronghua Liang</div>
+                <div style="margin-top: 5px; ">IEEE Transactions on Visualization and Computer Graphics (TVCG) / CCF-A / 2024 (to appear)</div>
+                <div style="margin-top: 5px; "><button id="vac2_pdf" class="paperBtn">pdf</button>
+                    | <button id="vac2_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/lander.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">LANDER: Visual Analysis of Activity and Uncertainty in Surveillance Video</div>
+                <div style="margin-top: 5px; ">Tong Li, Guodao Sun, <span style="font-weight: bolder">Baofeng Chang</span>, Yunchao Wang, Qi Jiang, Yuanzhong ying, Li Jiang, </div>
+                <div>Haixia Wang, and Ronghua Liang</div>
+                <div style="margin-top: 5px; ">IEEE Transactions on Human-Machine Systems (THMS) / CCF-B / 2024</div>
+                <div style="margin-top: 5px; "><button id="lander_pdf" class="paperBtn">pdf</button>
+                                        | <button id="lander_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/mdvidsql.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">MAVIDSQL: A Model-Agnostic Visualization for Interpretation and Diagnosis of Text-to-SQL Tasks</div>
+                <div style="margin-top: 5px; ">Jingwei Tang, Guodao Sun, Jiahui Chen, Gefei Zhang, <span style="font-weight: bolder">Baofeng Chang</span>, Haixia Wang, and Ronghua Liang</div>
+                <div style="margin-top: 5px; ">IEEE Transactions on Cognitive and Developmental Systems / SCI / 2024</div>
+                <div style="margin-top: 5px; "><button id="mavidsql_pdf" class="paperBtn">pdf</button>
+                                        | <button id="mavidsql_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/video_survey.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">Video Visualization and Visual Analytics: A Task-Based and Application-Driven Investigation</div>
+                <div style="margin-top: 5px; ">Wang Xia, Guodao Sun, Tong Li, <span style="font-weight: bolder">Baofeng Chang</span>, Jingwei Tang, Gefei Zhang, and Ronghua Liang</div>
+                <div style="margin-top: 5px; ">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) / CCF-B / 2024</div>
+                <div style="margin-top: 5px; "><button id="video_survey_pdf" class="paperBtn">pdf</button>
+                                        | <button id="video_survey_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/vivian.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">VIVIAN: virtual simulation and visual analysis of epidemic spread data</div>
+                <div style="margin-top: 5px; ">Guojun Li, <span style="font-weight: bolder">Baofeng Chang</span>,  Jian Zhao, Jiayang Wang, Fan He, Yongheng Wang, Ting Xu, and Zhiguang Zhou</div>
+                <div style="margin-top: 5px; ">Journal of Visualization / SCI / 2024</div>
+                <div style="margin-top: 5px; "><button id="vivian_pdf" class="paperBtn">pdf</button>
+                                        | <button id="vivian_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/clinical-analysis.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">An integrated visual analytics system for studying clinical carotid artery plaques</div>
+                <div style="margin-top: 5px; ">Chaoqing Xu, Zhentao Zheng, Yiting Fu, <span style="font-weight: bolder">Baofeng Chang</span>, Legao Chen, Minghui Wu, Mingli Song,</div>
+                <div>and Jinsong Jiang</div>
+                <div style="margin-top: 5px; ">Journal of Visualization / SCI / 2024</div>
+                <div style="margin-top: 5px; "><button id="chaoqing_pdf" class="paperBtn">pdf</button>
+                                        | <button id="chaoqing_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/vmexplorer.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">Visual interactive image clustering: a target-independent approach for configuration optimization </div>
+                <div>in machine vision measurement</div>
+                <div style="margin-top: 5px; ">Lvhan Pan, Guodao Sun, <span style="font-weight: bolder">Baofeng Chang</span>, Wang Xia, Qi Jiang, Jingwei Tang, and Ronghua Liang </div>
+                <div style="margin-top: 5px; ">Frontiers of Information Technology and Electronic Engineering (FITEE) / CCF-C / 2023</div>
+                <div style="margin-top: 5px; "><button id="pan_pdf" class="paperBtn">pdf</button>
+                                        | <button id="pan_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/AMOptimization.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">Application of Mathematical Optimization in Data Visualization and Visual Analytics: A Survey</div>
+                <div style="margin-top: 5px; ">Guodao Sun, Zihao Zhu, Gefei Zhang, Chaoqing Xu, Yunchao Wang, Sujia Zhu, <span style="font-weight: bolder">Baofeng Chang</span>, and Ronghua Liang </div>
+                <div style="margin-top: 5px; ">IEEE Transactions on Big Data (TBD) / CCF-C / 2023</div>
+                <div style="margin-top: 5px; "><button id="math_survey_pdf" class="paperBtn">pdf</button>
+                                        | <button id="math_survey_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/tang_dynasty.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">Visual analysis of inscriptions in the Tang Dynasty: a case study on the calligraphy style of Wang Xizhi</div>
+                <div style="margin-top: 5px; ">Yang Zhang, Ling Chen, Haonan Chen, Jinghui Chu, <span style="font-weight: bolder">Baofeng Chang</span>, Yunchao Wang, and Guodao Sun</div>
+                <div style="margin-top: 5px; "> Visual Intelligence / 2023</div>
+                <div style="margin-top: 5px; "><button id="wangxizhi_pdf" class="paperBtn">pdf</button>
+                                        | <button id="wangxizhi_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+        <div style="margin-top: 20px; width: 100%;">
+            <div style="float: left">
+                <img src="images/permvizor.png" style="width:180px; height: 95px;">
+            </div>
+            <div style="float: left; margin-left: 15px;">
+                <div style="margin-top: 5px;">PermVizor: visual analysis of multivariate permutations</div>
+                <div style="margin-top: 5px; ">Guodao Sun, Zhixiu Zhou, <span style="font-weight: bolder">Baofeng Chang</span>, Jingwei Tang, and Ronghua Liang</div>
+                <div style="margin-top: 5px; "> Visual Intelligence / 2019</div>
+                <div style="margin-top: 5px; "><button id="permvizor_pdf" class="paperBtn">pdf</button>
+                                        | <button id="permvizor_cite" class="paperBtn">cite</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="width: 100%; clear: both; margin-top: 10px">
+    <p>More Information will come soon...</p>
+<!--    <div style="width: 100%; clear: both;">-->
+<!--        <div style="margin-top: 10px; font-size: 25px">-->
+<!--            Activities-->
+<!--        </div>-->
+<!--        <div style="margin-top: 0px; width: 100%; height: 200px; overflow: auto">-->
+<!--            <ul>-->
+<!--                <li><div style="float: left">Congrats. My paper DBNetVizor is accepted by IEEE Transactions on Big Data.</div> <div style="float: right">-2024.06</div></li>-->
+<!--                <li><div style="float: left">Two papers are published by Journal of Visualization.</div> <div style="float: right">-2024.03</div></li>-->
+<!--                <li><div style="float: left">I leave HDU and join Zhejiang Province Airport Group as a researcher.</div> <div style="float: right">-2023.07</div></li>-->
+<!--                <li><div style="float: left">Congrats. Three papers are accepted in ChinaVis 2023.</div> <div style="float: right">-2023.04</div></li>-->
+<!--                <li><div style="float: left">Presentation! "Big Data Visualization and Visual Analysis Empowering Smart Education" in YCF, Wenzhou, China.</div> <div style="float: right">-2023.05</div></li>-->
+<!--                <li><div style="float: left">I work as a temporary assistant researcher at Hangzhou Dianzi University.</div> <div style="float: right">-2023.04</div></li>-->
+<!--                <li><div style="float: left">Congrats to myself. I graduate from Zhejiang University of Technology. Now, you can call me Doctor Chang. LOL.</div> <div style="float: right">-2023.03</div></li>-->
+<!--                <li><div style="float: left">I participated in the ChinaVis PhD forum and shared my research.</div> <div style="float: right">-2022.07</div></li>-->
+<!--                <li><div style="float: left">My paper MUSE is accepted by IEEE Transactions on Visualization and Computer Graphics.</div> <div style="float: right">-2022.05</div></li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+</div>
+<script src="libs/btn.js"></script>
+</body>
+</html>
